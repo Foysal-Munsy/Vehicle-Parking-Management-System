@@ -54,6 +54,7 @@ public class Parking implements ZoneOperation,SecurityOperation {
 		}
 		System.out.println("--------------------");
 	}
+}
 	public Vehicle getVname(String vName){
 		Vehicle v = null;
 		
@@ -124,6 +125,7 @@ public class Parking implements ZoneOperation,SecurityOperation {
 		}
 		System.out.println();
 	}
+}
 	public Security getSecurityId(int securityId){
 		Security s = null;
 		
